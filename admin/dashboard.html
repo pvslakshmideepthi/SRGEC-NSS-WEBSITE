@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Dashboard | SRGEC NSS Admin</title><link rel="stylesheet" href="../css/style.css"><link rel="stylesheet" href="../css/admin.css"></head>
+<body class="admin-body">
+  <div class="admin-layout">
+    <aside class="admin-sidebar"><a class="brand" href="../index.html"><span class="logo">NSS</span><span><strong>SRGEC NSS</strong><span>Admin Panel</span></span></a><nav class="admin-nav" data-admin-nav><a href="dashboard.html">Dashboard</a><a href="activities.html">Activities</a><a href="camps.html">Camps</a><a href="members.html">Members</a><a href="gallery.html">Gallery</a><a href="settings.html">Settings</a></nav></aside>
+    <main class="admin-main">
+      <div class="admin-top"><div><span class="eyebrow">Overview</span><h1>Dashboard</h1></div><button class="btn ghost" data-logout>Logout</button></div>
+      <section class="grid cols-3" data-admin-stats></section>
+      <section class="section" style="padding-left:0;padding-right:0"><div class="grid cols-2"><article class="card card-body"><h2>Content Management</h2><p>Manage homepage content, activity records, camp details, coordinators, volunteers, gallery items, uploads, and announcements using Local Storage.</p></article><article class="card card-body"><h2>Notifications</h2><p>Publish announcements, maintain upcoming events, and display notices on the public home page.</p></article></div></section>
+      <section class="section" style="padding-left:0;padding-right:0"><div class="section-head"><div><span class="eyebrow">Roles</span><h2>User roles</h2></div></div><div class="grid cols-4" data-admin-roles></div></section>
+      <section class="section" style="padding-left:0;padding-right:0"><div class="section-head"><div><span class="eyebrow">Forms</span><h2>Registrations</h2></div></div><div class="table-wrap" data-registration-table></div></section>
+    </main>
+  </div>
+  <script src="../js/admin.js"></script>
+</body></html>
